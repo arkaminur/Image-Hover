@@ -1,0 +1,18 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #34495e;
+}
+.container{
+	width: 500px;
+	height: 500px;
+	align-items: center;
+	margin: 100px auto;
+	overflow: hidden;
+}
+.container img{
+	transition: 2s;
+}
+.container:hover img {
+	transform: scale(1.6);
+}
